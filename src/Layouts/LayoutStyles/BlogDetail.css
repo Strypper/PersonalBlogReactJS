@@ -1,0 +1,52 @@
+#BlogDetailHeader{
+    height: 40vh;
+    background-image: url('../AndroidCover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+#Title{
+    margin: auto;
+    padding: 0px;
+    font-size: 90px;
+    text-align: center;
+}
+#BodyBlog{
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+.BlogSection{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.BlogSection h2{
+  margin: 40px;
+  padding: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.BlogSection p{
+  margin: 40px;
+  font-size: 25px;
+}
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

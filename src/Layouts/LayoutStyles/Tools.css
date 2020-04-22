@@ -1,0 +1,23 @@
+.Tool{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.Tool .Circlecard{
+    margin: 10px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.Tool .Circlecard:hover{
+    background: #ffffff;
+}
+.Tool .Circlecard div{
+    display: flex;
+}
+.Tool .Circlecard div h5{
+    margin: 10px;
+    text-align: end;
+    font-size: 25px;
+}

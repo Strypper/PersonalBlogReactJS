@@ -1,0 +1,24 @@
+#NeumorphismButton{
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #696969;
+    font-size: 30px;
+    border-radius: 15px;
+    background: #dcdcdc;
+    cursor: pointer;
+    box-shadow: 20px 20px 60px #bbbbbb, 
+                -20px -20px 60px #fdfdfd;
+    margin: 20px;
+}
+#NeumorphismButton:hover{
+    background: #dcdcdc;
+    box-shadow: inset 20px 20px 60px #bbbbbb, 
+                inset -20px -20px 60px #fdfdfd;
+}
+#NeumorphismButton:hover span{
+    display: inline-block;
+    transform: scale(0.98);
+}
